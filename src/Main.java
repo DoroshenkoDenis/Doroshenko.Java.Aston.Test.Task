@@ -6,11 +6,12 @@ public class Main {
         printPrivet();
         printPrivetName();
         printMultiplesOfNumber();
+
     }
 
     static Scanner in = new Scanner(System.in);
     private static String input;
-    private static final int EXPECTED_DIGIT = 7;
+    private static final int COMPARED_DIGIT = 7;
     private static final String NAME = "Вячеслав";
     private static final double DIGIT = 3;
 
@@ -24,7 +25,7 @@ public class Main {
         while (!statusOK) {
             try {
                 while (true) {
-                    if (Double.parseDouble(input) > EXPECTED_DIGIT) {
+                    if (Double.parseDouble(input) > COMPARED_DIGIT) {
                         System.out.println("Привет");
                         statusOK = true;
                         break;
@@ -96,3 +97,4 @@ public class Main {
     }
 
 }
+
