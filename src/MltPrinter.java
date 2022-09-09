@@ -12,7 +12,7 @@ public class MltPrinter {
     }
 
     /**
-     * the method prints store entered digits to an array and prints all multiples of the passed number
+     * the method store entered digits to an array and prints all multiples of the passed number
      * after entering the word 'Next', we display all the numbers in the array that are multiples of the given
      */
     public void printMultiplesOfNumber() {
